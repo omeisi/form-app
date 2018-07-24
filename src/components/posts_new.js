@@ -36,17 +36,17 @@ class PostsNew extends Component {
     return (
       <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
         <Field
-          Lable="Title"
+          lable="Title"
           name="title"
           component={this.renderField}
         />
         <Field
-          Lable="Categories"
+          lable="Categories"
           name="categories"
           component={this.renderField}
         />
         <Field
-          Lable="Post Content"
+          lable="Post Content"
           name="content"
           component={this.renderField}
         />
